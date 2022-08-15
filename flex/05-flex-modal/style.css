@@ -10,9 +10,7 @@ body {
   background: #aaa;
   color: #333;
   /* I'll give you this one for free lol */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
 }
 
 .modal {
@@ -20,6 +18,41 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.left {
+  padding: 10px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.header {
+  padding-top: 12px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.text {
+  font-size: medium;
+}
+
+.button-container{
+  display: flex;
+  justify-content: flex-start;
+  gap: 6px;
+  padding-bottom: 6px;
+}
+
+.right {
+  padding: 10px;
 }
 
 .icon {
